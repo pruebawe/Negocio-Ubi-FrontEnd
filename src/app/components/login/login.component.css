@@ -1,0 +1,9 @@
+.login-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .signup-button {
+    margin-left: auto;
+  }
+  
