@@ -1,3 +1,16 @@
 <i class="fas fa-store"></i><!-- Icono de tienda -->
 <i class="fas fa-map-marker-alt"></i> <!-- Icono de ubicación -->
 <i class="fas fa-search"></i> <!-- Icono de detalles -->
+
+<div>
+    <h1>Negocio</h1>
+</div>
+<div *ngFor="let Business of business">
+    <p>{{Business.nombre}}</p>
+    <p>{{Business.descripcion}}</p>
+    <p>{{Business.direccion}}</p>
+    <p>{{Business.latitud}}</p>
+    <p>{{Business.longitud}}</p>
+    <p>{{Business.horaInicio}}</p>
+    <p>{{Business.horaFin}}</p>
+</div>
